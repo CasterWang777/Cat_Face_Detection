@@ -117,7 +117,7 @@ About ESP-NN
     | prelu (relu6)   | 18315   | 1856    | 9.87    | size, 1615  | Internal  |
 
 
-###### Configuration
+## Configuration
 
   * To configure, please use `idf.py menuconfig` and under `ESP-NN` select `NN_OPTIMIZATIONS`
   * There are two options presented:
