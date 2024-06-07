@@ -128,7 +128,7 @@ About ESP-NN
   * For debugging purposes, you may want to select `ANSI C` reference versions.
 
 
-建構範例 3 : person_detection
+#建構範例 3 : person_detection
 ------------
 
 若要取得範例，請執行以下命令：
