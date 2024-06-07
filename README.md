@@ -1,4 +1,4 @@
-# Cat_Face_Detection
+# Cat_Face_Detection(MacOS)
 this is a guideline of NICT class
 
 適用於 Espressif 晶片組的 TensorFlow Lite Micro
