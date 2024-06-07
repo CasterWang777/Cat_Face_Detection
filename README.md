@@ -63,7 +63,14 @@ esptool.py --chip esp32 -p /dev/tty.SLAB_USBtoUART  write_flash -z 0x1000 ./boot
 ```
 #### 執行結果（minicom）
 *只需要將境頭對準貓臉，即會在terminal顯示讀取到的照片指令。
+```
+esptool.py --chip esp32s3 -p /dev/tty.usbmodem101 -b 460800 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 8MB --flash_freq 80m 0x0 bootloader.bin 0x8000 partition-table.bin 0x10000 cat_face_detection_lcd.bin
+```
+#### 執行結果照片
+------------
+![image](https://github.com/CasterWang777/Cat_Face_Detection/assets/144813140/1597cfcd-2323-42d6-be93-105149b02a11)
 
 
 貓臉辨識影片:
 ------------
+https://www.youtube.com/shorts/-zBv5N6RfQs
