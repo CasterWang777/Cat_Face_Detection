@@ -26,7 +26,7 @@ source ./export.sh
 cd ..
 ```
 
-建構範例 1 : cat_face_detection
+建構範例 : cat_face_detection
 ------------
 
 * 從 IDF_PATH 環境變量指定的路徑復制 cat_face_detection 範例到當前目錄：
