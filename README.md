@@ -3,6 +3,10 @@ this is a guideline of NICT class
 
 適用於 Espressif 晶片組的 TensorFlow Lite Micro
 
+製作者:
+112368028 簡立瑋
+112368036 王睿煬
+112368039 張哲瑋
 
 安裝 ESP IDF
 ------------
